@@ -11,9 +11,7 @@
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
 
-const helloWorld = () => { // явное возвращение функции
-  return 'Hello, World!'
-}
+const helloWorld = () => 'Hello, World!'
 
 console.log(helloWorld()) // вывод вконсоль
 
