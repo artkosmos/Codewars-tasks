@@ -1,12 +1,12 @@
 // We need a function that can transform a number (integer) into a string.
 
-function numberToString(num) {
+function numberToString (num) {
   return String(num)
 }
 
 // or
 
-function anotherNumberToString(num) {
+function anotherNumberToString (num) {
   return num.toString()
 }
 

@@ -15,8 +15,8 @@
 
 /**
  * It returns the difference of two numbers
- * @param {number} a 
- * @param {number} b 
+ * @param {number} a
+ * @param {number} b
  * @returns {number} The difference of numbers
  */
 

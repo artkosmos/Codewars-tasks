@@ -14,7 +14,8 @@ let b
 a = 5
 b = 5
 
+a = 10
+b = 20
 const c = a * b
 
 console.log(c)
-
