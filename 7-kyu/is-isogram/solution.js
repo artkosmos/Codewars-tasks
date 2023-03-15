@@ -6,3 +6,9 @@ function isIsogram (str) {
 console.log(isIsogram('Dermatoglyphics'))
 console.log(isIsogram('moOse'))
 console.log(isIsogram('isIsogram'))
+
+/* alternative decision through Set
+
+function isIsogram(str){
+	return new Set(str.toUpperCase()).size == str.length;
+} */
