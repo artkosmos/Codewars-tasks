@@ -5,10 +5,10 @@ including any nested arrays. */
 function deepCount (array) {
   let counter = 0
   array.forEach((element) => {
-    if (typeof element !== 'object') {
+    if (!Array.isArray(element)) {
       counter += 1
     } else {
-      counter += deepCount(element)
+      counter += 1 + deepCount(element)
     }
   })
   return counter
