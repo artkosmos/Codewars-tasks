@@ -4,7 +4,7 @@ Luckily, you know every person who those suspects have seen
 on the day of the murders.
 Return the name of the one killer, who is the only person that saw both victims. */
 
-function killer (suspectInfo, dead) {
+function killer(suspectInfo, dead) {
   let murder
   // eslint-disable-next-line no-restricted-syntax, guard-for-in
   for (const name in suspectInfo) {
