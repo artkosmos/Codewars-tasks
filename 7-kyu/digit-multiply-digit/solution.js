@@ -10,7 +10,8 @@ Note: The function accepts an integer and returns an integer. */
 
 function squareDigits(num) {
   const numArray = [...num.toString()]
-  return numArray.map((item) => Number(item) ** 2).join("")
+  const result = numArray.map((item) => (+item) ** 2).join("")
+  return +result
 }
 
 console.log(squareDigits(765))
