@@ -8,7 +8,7 @@ What if the string is empty? Then the result should be empty object literal, {}.
 function count(string) {
   return string.split('').reduce((result, letter) => {
     if (result[letter]) {
-      result[letter]++;
+      result[letter] += 1;
     } else {
       result[letter] = 1;
     }
