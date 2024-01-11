@@ -13,7 +13,7 @@ Return k.
  * @return {number}
  */
 
-const removeElement = function(nums, val) {
+const removeElementInPlace = function(nums, val) {
   let k = 0;
 
   for (let i = 0; i < nums.length; i++) {
